@@ -23,7 +23,7 @@ def find_receiver():
         receiver = found_receivers[0]
         print("Using {}".format(receiver.friendly_name))
     elif not found_receivers:
-        print("No reciever found, giving up.")
+        print("No receiver found, giving up.")
         sys.exit(1)
     else:
         receiver = found_receivers[0]
